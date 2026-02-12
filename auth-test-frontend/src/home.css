@@ -1,0 +1,25 @@
+/* Break body centering for Home page ONLY */
+.home-layout {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+
+  /* override body flex */
+  display: block;
+}
+
+/* Ensure top bar spans full width */
+.home-layout {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    180deg,
+    #f8fafc 0%,
+    #eef2f7 100%
+  );
+}
+
+/* Main content */
+.home-content {
+  padding: 32px;
+}
